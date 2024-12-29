@@ -274,6 +274,9 @@ nav li{
     justify-content: center;
     align-items: center;
 }
+.politica_privacidad p{
+    color:#f8f4f4;
+}
 .superior{
     display: flex;
     color:white;

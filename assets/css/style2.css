@@ -80,8 +80,7 @@ article img:hover{
 }
 
 article p{
-    hyphens: auto;
-    text-align: justify;
+    text-align: left;
     padding-top: 10px;
     min-height: 170px;
 }
@@ -217,6 +216,9 @@ header img{
 h1{
     font-size: 3em;
 }
+h2{
+    font-size: 1.2em;
+}
 h1,h2,h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -289,6 +291,9 @@ nav li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.politica_privacidad p{
+    color:#f8f4f4;
 }
 .superior{
     display: flex;
@@ -393,6 +398,9 @@ figure a:active{
     }
     h1{
         font-size: 2em;
+    }
+    h2{
+        font-size: 1em;
     }
     .articulos{
         flex-wrap: wrap;

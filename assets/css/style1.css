@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 1em;
+}
+address{
+    background-color: #f5ce65;
+    color:#2e2e2e;
+    padding: 10%;
+    
+}
+.articulos{
+    display: flex;
+    background-color:#f3f3f3;
+    justify-content: space-around;
+    padding: 20px;
+}
+article{
+    flex:1;
+    padding-inline: 20px;
+    
+}
+article p{
+    hyphens: auto;
+    text-align: justify;
+    padding-top: 10px;
+
+}
+aside{
+    background-color:#b3b3b3;
+    width:17%;
+    display:flex;
+    flex-direction:column;
+    padding-top: 100px;
+    text-align:left;
+}
+aside ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 10%; 
+    padding-left: 10%; 
+}aside li{
+    padding-bottom: 8px;
+}
+aside a:link, aside a:visited{
+    color:#2e2e2e; 
+}
+aside a:hover{
+    color:black;
+}
+aside a:active{
+    color: white;
+}
+aside h3{
+    padding-left: 10%;
+}
+.asideTitulos{
+    display: flex;
+    align-items: center;
+    background-color:#2e2e2e;
+    height: 30%;
+}
+.asideTitulos h3{
+    color:white;
+}
+.asideEnlaces{
+    display: flex;
+    align-items: center;
+    background-color:#cecdcd;
+    padding-bottom: 20%;  
+}
+body{
+    height: 100vh;
+    font-size: 1em;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    margin:2%;
+    background-color: #f3f3f3;
+    text-decoration: none;
+    border-radius: 5px;
+    border:solid 2px #D09A0E;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1em;
+}
+.contenido{
+    width: 83%;
+}
+.contenidoServicios{
+    width: 83%;
+    background-color:#f4d98f;
+}
+.contenidoForm{
+    width: 83%;
+    background-color:#2e2e2e;
+    padding-top:2%;
+    padding-bottom: 2%;
+    color:white;
+}
+fieldset{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    border-radius:5px;
+    padding-bottom: 10px;
+}
+form{
+    text-align: center;
+}
+form h2{
+    color:white;
+}
+
+.form-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 30%;
+    padding-top:2%;
+}
+.form-row-privacidad{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 30%;
+    padding-top:2%;
+}
+.form-row-consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top:2%;
+}
+.form-row-privacidad input{
+    border-radius: 5px;
+    border:solid 2px #D09A0E;
+    width:20px ;
+    height: 20px;
+}
+.form-row input{
+    border-radius: 5px;
+    width:30% ;
+    height: 20px;
+    border:solid 2px #D09A0E;
+}
+footer{
+    background-color: white;
+    color:#2e2e2e;
+    padding: 15px;
+}
+.f-principal{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.f-mapa{
+  width: 40%;
+}
+.f-redes{
+  width: 40%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    margin-left: 3%;
+    padding-top:3%;
+}
+header a{
+    padding: 0px;
+    width: 20%;
+}
+.headerTituloIndex{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left:5%;
+    padding-right:5%;
+}
+.headerTitulos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:5%;
+    padding-right:5%;
+}
+header img{
+    width: 98%;
+}
+h1{
+    font-size: 3em;
+}
+h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    display:block;
+    margin-right: 5px;
+    font-size: 1.1em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+main{
+    display: flex;
+    width: 100%;  
+}
+nav{
+    background-color:#707070 ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color:#2e2e2e;
+    font-size: 1.2em;
+    padding: 20px;
+}
+nav a:hover{
+    background-color:#e2b12d;
+    color:white;
+    border-radius: 5px;
+    border:solid 2px #e2b12d;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+nav a:active{
+    background-color: black;
+}
+nav li{
+    background-color: #f3f3f3;
+    text-decoration: none;
+    border-radius: 5px;
+    border:solid 2px #D09A0E;
+    margin-right:15%;
+}
+.politica_privacidad a:link, .politica_privacidad a:visited{
+    font-size: 0.8em;
+    color:white;
+}
+.politica_privacidad a:hover{
+    font-size: 0.8em;
+    color:black;
+}
+.politica_privacidad a:active{
+    font-size: 0.8em;
+    color:#D09A0E;
+}
+.politica_privacidad{
+    background-color: #707070;
+    width: 100%;
+    height:5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.superior{
+    display: flex;
+    color:white;
+    background-color:#2e2e2e ;
+}
+.superior h1{
+    color:white;
+    display: flex;
+    text-align: left;
+}
+.superior img{
+    width: 30%;
+    padding-left:10%;
+}
+.superiorFrase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:left;
+    padding-left: 5%;
+}
+table{
+    width:100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+    table-layout: auto;
+}
+table th, table td{
+    border:3px solid #a47a0f;
+    padding:3%;
+    text-align: center;
+}
+table th{
+    font-size: 1.2em;
+}
+table td{
+    font-size: 1.1em;
+}
+table tr:nth-child(odd){
+    background-color: #f4d98f;
+}
+table tr:nth-child(even){
+    background-color:#f3f3f3;
+}
+table tr:first-child{
+    background-color: #D09A0E;
+}    
+table caption{
+    caption-side: bottom;
+    padding:5%;
+    font-weight: bold;
+    font-size: 2em;
+}
+table img{
+    width:60%;
+    height: auto;
+}
+textarea{
+    border-radius: 5px;
+    width:500px;
+    height: 100px;
+    border:solid 2px #D09A0E;
+}
+ul{
+    list-style: none;
+}
+figure a:link, figure a:visited{
+    background-color:white;
+}
+figure a:hover{
+    background-color: #e2b12d;
+}
+figure a:active{
+    background-color:#707070;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    background-color: transparent; 
+    border: none;
+  }
+  
+  .whatsapp img {
+    width: 60px; 
+    height: 60px;
+  }

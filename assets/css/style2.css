@@ -1,0 +1,488 @@
+/*Estilos para la pagina Flex*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenidoDos{
+    border: solid 1px #D09A0E;
+    padding: 20px;
+    display: flex;
+    flex: 1 40%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.contenidoTres{
+    border: solid 1px #D09A0E;
+    padding: 20px;
+    display: flex;
+    flex: 1 25%; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;;
+}
+.contenidoColumna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+img{
+    width: 50%;
+}
+/*Estilos para index*/
+/*Estilos para pantallas de más de 1200px*/
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 1em;
+}
+.articulos{
+    display: flex;
+    background-color:#f3f3f3;
+    justify-content: space-around;
+    padding: 0px;
+}
+article{
+    flex:1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+article:hover{
+    background-color: #ead393;
+}
+article h3{
+    text-align: center;
+    padding-bottom: 10px;
+    min-height: 50px;
+}
+article img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    
+}
+article img:hover{
+    transition:1s;
+    transform:scale(1.1);
+}
+
+article p{
+    hyphens: auto;
+    text-align: justify;
+    padding-top: 10px;
+    min-height: 170px;
+}
+aside{
+    background-color:#cecdcd;
+    width:17%;
+    display:flex;
+    flex-direction:column;
+    padding-top: 0px;
+    text-align:left;
+}
+aside ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 10%; 
+    padding-left: 10%; 
+}aside li{
+    padding-bottom: 8px;
+}
+aside a:link, aside a:visited{
+    color:#2e2e2e; 
+}
+aside a:hover{
+    color:rgb(0, 0, 0);
+}
+aside a:active{
+    color: white;
+}
+aside h3{
+    padding-left: 10%;
+}
+.asideTitulos{
+    display: flex;
+    align-items: center;
+    background-color:#2e2e2e;
+    height: 30%;
+    min-height: 40%;
+    color:white;
+}
+.asideEnlaces{
+    display: flex;
+    background-color:#cecdcd;
+    padding-bottom: 30%; 
+    height: 150px; 
+}
+a[href$=".pdf"]::after{
+    content: url('https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png'); /* Reemplaza con la URL de tu imagen */
+    width: 20px;
+    height: 20px;
+    margin-left:5px;
+}
+body{
+    height: 100vh;
+    font-size: 1em;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton{
+    margin:2%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    border:solid 2px #D09A0E;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1em;
+    margin-bottom: 0%;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.boton a{
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: rgb(110, 110, 110);
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(43,42,42);
+    box-shadow: 10px 10px 30px 2px rgba(43,42,42);
+}
+.boton a:link, .boton a:visited{
+    color:#2e2e2e;
+}
+.boton a:hover{
+    color:#e3b84a;
+}
+.contenido{
+    width: 83%;
+}
+footer{
+    background-color: white;
+    color:#2e2e2e;
+    padding: 15px;
+}
+.f-principal{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.f-mapa{
+  width: 40%;
+}
+.f-redes{
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.f-redes img{
+    width: 18%;
+}
+header{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    margin-left: 3%;
+    padding-top:5%;
+}
+header a{
+    padding: 0px;
+    width: 20%;
+}
+.headerTituloIndex{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left:5%;
+    padding-right:5%;
+}
+header img{
+    width: 98%;
+}
+h1{
+    font-size: 3em;
+}
+h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img:not([alt]){
+    border: solid 2px red;
+}
+main{
+    display: flex;
+    width: 100%;  
+}
+nav{
+    background-color:#707070 ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color:#2e2e2e;
+    font-size: 1.2em;
+    padding: 20px;
+}
+nav a:hover{
+    background-color:#e2b12d;
+    color:white;
+    border-radius: 5px;
+    border:solid 2px #e2b12d;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+nav a:active{
+    background-color: black;
+}
+nav li{
+    background-color: #f3f3f3;
+    text-decoration: none;
+    border-radius: 5px;
+    border:solid 2px #D09A0E;
+    margin-right:15%;
+    box-shadow: 0px 12px 30px 10px black;
+}
+nav li:hover{
+    transition:1s ease;
+    transform: rotate(720deg);
+}
+.politica_privacidad a:link, .politica_privacidad a:visited{
+    font-size: 0.8em;
+    color:white;
+}
+.politica_privacidad a:hover{
+    font-size: 0.8em;
+    color:black;
+}
+.politica_privacidad a:active{
+    font-size: 0.8em;
+    color:#D09A0E;
+}
+.politica_privacidad{
+    background-color: #707070;
+    width: 100%;
+    height:5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.superior{
+    display: flex;
+    color:white;
+    background-color:#2e2e2e ;
+}
+.superior h1{
+    color:white;
+    display: flex;
+    text-align: left;
+}
+.superior img{
+    width: 30%;
+    padding-left:10%;
+}
+.superiorFrase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:left;
+    padding-left: 5%;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+figure a:link, figure a:visited{
+    background-color:white;
+}
+figure a:hover{
+    background-color: #e2b12d;
+}
+figure a:active{
+    background-color:#707070;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    background-color: transparent; 
+    border: none;
+  }
+  .whatsapp img{
+    width: 60px; 
+    height: 60px;
+  }
+  /*Estilos para pantallas de 1200 a 700 px*/
+  @media (max-width: 1200px){
+    aside{
+        display: none;
+    }
+    .cabecera{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        height: 120px;
+        margin: 0%;
+    }
+    .contenido{
+        width: 100%;
+    }
+    nav{
+        width: 20%;
+        height: 120px;
+        position:static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav li:hover{
+        transform: none;
+    }
+    header{
+        width: 100%;
+        height: 120px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top:0%;
+    }
+    header a{
+        margin-left: 10px;
+    }
+    header img{
+        width: 200px;
+        padding-top: 10%;
+    }
+    .headerTituloIndex h1{
+        font-size: 180%;
+        padding-left: 50px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 5%;
+    }
+    nav li{
+        border:solid 1px #D09A0E;
+        margin-bottom:10%;
+        font-size: 0.7em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .articulos{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    article{
+        flex:0 1 43%;
+        margin-top:3%;
+        padding: 2%;
+    }
+    article img{
+        width: 40%;
+    }
+    article p{
+        min-height: 120px;
+    }
+    article h3{
+        font-size: 150%;
+    }
+    .whatsapp{
+        right: 40px; 
+        border: none;
+      }
+      .whatsapp img {
+        width: 50px; 
+        height: 50px;
+      }
+  }
+  /*Estilos para pantallas a partir de 700 px*/
+  @media (max-width: 700px){
+    .headerTituloIndex{
+        display: none;
+    }
+    header a{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    header{
+        height: 90px;
+    }
+    .articulos{
+        display: flex;
+        flex-direction: column;
+    }
+    article p{
+        min-height: 10px;
+    }
+    .cabecera{
+        height: 90px;
+    }
+    nav{
+        height: 90px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: left;
+    }
+    nav li{
+        font-size: 0.6em;
+    }
+    nav li a:hover{
+        font-size: 1.2em;
+        padding: 2px;
+    }
+    nav a:link, nav a:visited{
+        text-decoration: none;
+        color:#2e2e2e;
+        padding: 10px;
+    }
+    .superior img{
+        width: 40%;
+    }
+    .superiorFrase{
+        font-size: 200%;
+    }
+    .f-principal{
+        flex-direction: column;
+    }
+    .whatsapp{
+        right: 30px; 
+        border: none;
+    }
+      .whatsapp img {
+        width: 45px; 
+        height: 45px;
+    }
+   
+  }
